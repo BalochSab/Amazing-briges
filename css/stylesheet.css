@@ -1,0 +1,139 @@
+.brandimg {
+    background-image: url("../img/logo3.png");
+    background-size: 100% 100%;
+    width: 180px;
+    height: 35px;
+    cursor: pointer;    /*margin: 1% 0 1% 1%;*/
+
+    /* box-shadow: 1px 1px 100px 50px white; */
+}
+
+.nav-item {
+    font-weight: bolder;
+    margin-left: 9px;    /* border:1px solid #888;  */
+}
+
+.active {
+    color: #666;
+}
+
+.margb {
+    margin-bottom: 10px;
+   
+}
+.card:hover {
+    box-shadow: 1px 1px 10px lightblue;
+} 
+.lis{
+    font-weight: 300px;
+}
+
+/* ___________Contect us ________________ */
+
+/* ------footer------- */
+.fbg{
+    width: 150px;
+    height: 5px;
+}
+.footmarg {
+    margin-bottom: -15px ;
+    /* color: black; */
+}
+.list-unstyled {
+    margin-top: 15px;
+}
+.bgfcolor {
+    background-color: #ccc;
+    margin-top: 20px;
+}
+/* -----more----- */
+.piclist {
+    margin: 10px;
+}
+.piclist:hover {
+    box-shadow: 1px 1px 10px lightblue;
+}
+/*------form------*/
+.bgimg{
+
+    /* background-image:  url("../img/1.jpg"); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.formar{
+    margin-top: 20px;
+
+    
+}
+.box {
+    box-shadow: 1px 3px 4px 1px #aaa;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    /* border-radius: 0px; */
+    height: 50px;
+    width: 100%
+}
+.formar label {
+    font-size: 18px;
+}
+.mail{
+    margin-top: 20px;
+}
+/* -----country-- */
+.ovr:hover{
+    background-color: #ddd;
+   
+}
+/* ------detail---- */
+.margp{
+    padding: 0px;
+}
+.imglist{
+    cursor: pointer;
+    opacity: 0.8;
+    width: 100%;
+    height: 80%
+
+}
+.imglist:hover{
+    opacity: 1;
+}
+.hctry{
+    margin-bottom: 25px;
+}
+.fctry{
+    margin-bottom: 13px;
+}
+.bg{
+    background-color: gray;
+}
+/* ------gallary------ */
+#gallary{
+    
+    /* border-radius: 100%; */
+    opacity: 0.8;
+    transition-property: border-radius,opacity,box-shadow ;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+#gallary:hover{
+    /* border-radius: 0%; */
+    opacity: 1;
+   box-shadow: 10px  10px 10px gray;
+}
+/* -----gallary----- */
+/* ------------about us-------- */
+.about{
+    background-image: url('../img/1.jpg');
+    background-size: 100% 100%; 
+    height: 350px;
+    width: 100%;
+
+    /* background-attachment: fixed; */
+}
+.about div{
+    opacity: 0.8;
+    margin-top: 130px;
+    padding: 10px;
+}
